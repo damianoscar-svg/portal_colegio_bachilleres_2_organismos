@@ -1,0 +1,192 @@
+<?php
+?>
+<!Doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title> Estructura Celular </title>
+    <link rel="stylesheet" href="css/Style2.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--
+        { <ul> } es una lista sin orden para crear la lista que será el menú
+
+        { <li> } es el elemento de la lista en el que cada subtema es un punto de la lista
+
+        { <a href= "#home"> } es un enlace para dirigirse al { id="home" }, lo que hay que cambiar para 
+        dirigirse a otro lado es el nombre del id dentro del enlace y en el código
+
+        { style= "..."} sirve para modificar el css en la etiqueta que se esta poniendo
+
+        { list-style: none; } es para quitar los puntos de la lista
+
+        { display: flex; } es para poner los elementos de la lista en una sola línea (horizontal)
+
+        { gap: 20px; } es para poner un espacio entre cada elemento de la lista, se puede cambiar con el número
+
+        { justify-content: flex-end; } es para alinear el menú a la derecha, la alineacion se puede cambiar 
+         al cambiar la ultima palabra por { center } para el centro o { flex-start } para alinear a la izquierda
+
+        { nav } sirve para que el código sepa que es un área de navegación, es decir, un menú
+
+        { padding-right: 30px; } es para poner un espacio entre el menú y el borde derecho, se puede cambiar 
+        con el número
+        -->
+    <div class="fondo">
+        <br>
+        <div class="component">
+            <nav>
+                <ul style="list-style: none; display: flex; gap: 20px; justify-content: flex-start; padding-left: 30px;">
+                    <li><a href="#home">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+        <section id="home">
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
+        <div class="titulin">
+            <h1 style="text-align: left;">Estructura Celular</h1> 
+        </div>
+        <div class="titulin2">
+            <h5>Con el fin de saber un poco más, <br>
+            esta pagina esta hecha para entender la estructura de las celulas
+            </h5>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        
+    </div>
+
+
+       
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/nucleo.jpg"card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Núcleo</h3>
+                            <p class="card-text" style="text-align: justify;">El núcleo es el organelo de mayor tamaño. Dirije el metabolismo y la división celular y contiene el material hereditario. <br>
+                            Se compone por la Membrana nuclear, Nucléolo, Cromatina y Nucleosoma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/citoplasma.jpg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Citoplasma</h3>
+                            <p class="card-text" style="text-align: justify;">Incluye todo el volumen de la célula y representa su medio interno, excepto eel nucleo. En él transitan sustancias, se realizan funciones y se encuentran todos los organelos celulares<br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/membrana plasmatica.jpg" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Membrana celular o plasmática</h3>
+                            <p class="card-text" style="text-align: justify;">Rodea y da forma a la célula, cuyo contenido iónico es muy diferente al del medio circundante.<br>
+                            Sus componentes Lipídos son los fosfolípidos, el colesterol y los glucolípidos<br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Organelos con y sin membrana</h3>
+                            <p class="card-text" style="text-align: justify;">Son estructuras que se encuentran dentro del citoplasma de las células. Se distinguen entre los que poseen membrana y los que no.<br>
+                            Los organelos con membrana participan en los procesos metabólicos de la célula, en ellos esta la Mitocondria, Cloroplastos, Peroxisomas, Lisosomas y Vacuolas<br><br><br><br><br><br><br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/reticulo endoplasmatico.jpg" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Retículo endoplasmático</h3>
+                            <p class="card-text" style="text-align: justify;">Es el mayor sistema de mambranas de la célula. Hay dos tipos:<br>
+                            <ul> Retículo endoplasmático rugoso: su funcion es sintetizar proteínas; se llama rugoso porque contiene ribosomas </ul>
+                            <ul> Retículo endoplasmático liso: sintetiza y metaboliza lípidos; se llama liso porque no contiene ribosomas</ul></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/golgi.jpg" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Aparato o complejo de Golgi</h3>
+                            <p class="card-text" style="text-align: justify;">Se encarga de procesar, modificar y transportar sustancias como proteínas y lípidos. Su función principal es empaquetarlas en vesículas y enviarlas a otras partes de la célula o al exterior, por lo que actúa como un centro de distribución celular.<br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/ribosoma.webp" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Ribosoma</h3>
+                            <p class="card-text" style="text-align: justify;">Estan presentes en todas las celulas, son los organelos en los que se sintetizan las proteínas; formados por dos subunidades y no están rodeados de menbrana</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/lisosomas.avif" class="card-img-top" alt="Imagen 2">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Lisosoma</h3>
+                            <p class="card-text" style="text-align: justify;">Contienen enzimas hidrolíticas para degradar o digerir protrínas, polisarcáridos, ácidos nucleicos y lípidos. Son los que se encargan de realizar la digestión celular<br><br></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/mitocndria.jpg" class="card-img-top" alt="Imagen 3">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Mitocondria</h3>
+                            <p class="card-text" style="text-align: justify;">orgánulo de la célula encargado de producir energía. Su función principal es generar ATP (energía celular) a partir de los nutrientes mediante la respiración celular, por lo que se le conoce como la “central energética” de la célula.<br><br><br><br></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="padding: 20px;">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="IMAGENES/citoesqueleto.jpg" class="card-img-top" alt="Imagen 1">
+                        <div class="card-body">
+                            <h3 class="card-title" style="text-align: center;">Citoesqueleto</h3>
+                            <p class="card-text" style="text-align: justify;">El citoesqueleto es una red de filamentos dentro de la célula que le da forma y soporte. También permite el movimiento celular y el transporte de sustancias dentro de la célula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+ <h1>Gracias por ver</h1>
+        <footer> A continuacion mi red social
+            <a href="https://www.instagram.com/jnthanstar?igsh=YWZtZGRldHNxMnRh">
+                <p>Mi instagram</p>
+            </a>
+        </footer>
+</body>
+
+</html>
